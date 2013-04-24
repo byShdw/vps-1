@@ -1,0 +1,6 @@
+# Ignore unneeded files
+.project
+.DS_Store
+.idea
+.rar
+.zip
