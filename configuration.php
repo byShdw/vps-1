@@ -1,5 +1,4 @@
 <?php
-session_start();
 $user = $_SESSION['fullname'];
 $perm = $_SESSION['permission'];
 ?>

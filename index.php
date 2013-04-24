@@ -1,6 +1,6 @@
 <?php
+session_start();
 if(isset($_REQUEST['vps'])){
-	session_start();
 	if( isset($_SESSION['username']) && ($_SESSION['username'] != 'null') ){
 		$vps = $_REQUEST['vps'];
 	}else{
@@ -8,7 +8,6 @@ if(isset($_REQUEST['vps'])){
 	}
 }
 else{
-	session_start();
 	if( isset($_SESSION['username']) && ($_SESSION['username'] != 'null') ){
 		$vps = "autos";
 	}else{

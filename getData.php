@@ -66,5 +66,3 @@ mysql_close($con);
 $arrayTotal['name'] = $producto;
 echo $_GET['callback']."(".json_encode($arrayTotal).");";
 ?>
-;
-?>
